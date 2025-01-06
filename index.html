@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Monish M</title>
+    <link rel="icon" href="https://media.licdn.com/dms/image/D5603AQFbZZu8Rch9uw/profile-displayphoto-shrink_200_200/0/1715960549016?e=2147483647&v=beta&t=G59IKogYO-s6-P07HbIPomZfy5Yu0k440pMmlJw2sdg">
+    <link rel="stylesheet" href="style.css">
+    <link href="./output.css" rel="stylesheet">
+</head>
+<body class="bg-slate-900 text-white">
+    <nav class="bg-gray-800 p-4 fixed top-0 left-0 right-0 z-50 shadow-lg">
+        <div class="container mx-auto flex justify-between items-center">
+            <a href="index.html" class="text-white text-xl font-semibold ml-10 hover:text-teal-500 transition duration-300">MONISH M</a>
+            <div class="hidden md:flex space-x-6">
+                <a href="#home" class="text-white nav-link hover:text-cyan-400 transition duration-300">HOME</a>
+                <a href="#skills" class="text-white nav-link hover:text-cyan-400 transition duration-300">SKILLS</a>
+                <a href="#projects" class="text-white nav-link hover:text-cyan-400 transition duration-300">PROJECTS</a>
+                <a href="#contact" class="text-white nav-link hover:text-cyan-400 transition duration-300">CONTACT</a>
+            </div>
+            <div class="md:hidden">
+                <label for="navbar-toggle" class="text-white cursor-pointer">
+                    <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16m-7 6h7"></path>
+                    </svg>
+                </label>
+            </div>
+        </div>
+        <input type="checkbox" id="navbar-toggle" class="hidden navbar-toggle">
+        <div class="hidden md:hidden navbar-menu" id="mobile-menu">
+            <div class="px-2 pt-2 pb-3 space-y-1 sm:px-3">
+                <a href="#home" class="text-white block hover:bg-gray-700 hover:text-cyan-400 px-3 py-2 rounded-md transition-colors duration-300">HOME</a>
+                <a href="#skills" class="text-white block hover:bg-gray-700 hover:text-cyan-400 px-3 py-2 rounded-md transition-colors duration-300">SKILLS</a>
+                <a href="#projects" class="text-white block hover:bg-gray-700 hover:text-cyan-400 px-3 py-2 rounded-md transition-colors duration-300">PROJECTS</a>
+                <a href="#contact" class="text-white block hover:bg-gray-700 hover:text-cyan-400 px-3 py-2 rounded-md transition-colors duration-300">CONTACT</a>
+            </div>
+        </div>
+    </nav>
+    <div class="container mx-auto px-4 py-12 flex flex-col md:flex-row items-center justify-center min-h-[calc(100vh-64px)]" id="home">
+        <div class="md:w-1/2 md:order-2 md:pl-8 mb-8 md:mb-0">
+            <div class="flex justify-center items-center">
+                <img src="image.jpg" alt="MONISH M" class="w-72 h-72 rounded-full object-cover profile-image">
+            </div>
+        </div>
+        <div class="md:w-1/2 md:order-1 md:pr-8 md:ml-12">
+            <h2 class="text-4xl font-bold mb-4">
+                Hello, I'm <span class="text-cyan-500">MONISH M</span>
+            </h2>
+            <h3 class="text-2xl font-semibold mb-4 fade-in text-gray-300">Web Developer</h3>
+            <p class="mb-6 text-gray-400">Learnt Html, CSS and JavaScript</p>
+            <div class="space-x-4">
+                <a href="mailto:monishmurugesan185@gmail.com"><button class=" text-white px-6 py-2 rounded transition duration-300 custom-button">Hire me</button></a>
+                <a href="White Simple Student Cv Resume.pdf" target="_blank"><button class="bg-gray-700 text-white px-6 py-2 rounded hover:bg-gray-600 transition duration-300 custom-button">Resume</button></a>
+            </div>
+            <div class="flex space-x-9 mt-9">
+                <a href="https://github.com/Monish1855" target="_blank" rel="noopener noreferrer" class="social-icon github">
+                    <ion-icon name="logo-github" class="text-3xl"></ion-icon>
+                </a>
+                <a href="https://www.linkedin.com/in/monish-m-307117331//" target="_blank" rel="noopener noreferrer" class="social-icon linkedin">
+                    <ion-icon name="logo-linkedin" class="text-3xl"></ion-icon>
+                </a>
+                <a href="mailto:monishmurugesan185@gmail.com" class="social-icon mail">
+                    <ion-icon name="mail-outline" class="text-3xl"></ion-icon>
+                </a>
+            </div>
+        </div>
+    </div>
+<div class="container mx-auto px-12 py-12" id="skills">
+    <h2 class="text-4xl font-bold mb-5 text-blue-400 skills">Skills & About Me</h2>
+    <div class="flex flex-col md:flex-row gap-24">
+        <div class="md:w-1/3 skills">
+            <h3 class="text-3xl font-semibold mb-4 text-purple-300 ">My Skills</h3>
+            
+            <div class="space-y-4 ml-3 mr-5">
+                <div class="skill">
+                    <div class="flex justify-between mb-1">
+                        <span class="text-base font-semibold text-gray-300">HTML</span>
+                        <span class="text-lr font-medium text-gray-400">90%</span>
+                    </div>
+                    <div class="w-full bg-gray-700 rounded-full h-2">
+                        <div class="h-2 rounded-full pbar" style="width: 90%"></div>
+                    </div>
+                </div>
+
+                <div class="skill">
+                    <div class="flex justify-between mb-1">
+                        <span class="text-base font-semibold text-gray-300">CSS</span>
+                        <span class="text-lr font-medium text-gray-400">80%</span>
+                    </div>
+                    <div class="w-full bg-gray-700 rounded-full h-2">
+                        <div class="h-2 rounded-full pbar" style="width: 80%"></div>
+                    </div>
+                </div>
+                
+                <div class="skill">
+                    <div class="flex justify-between mb-1">
+                        <span class="text-base font-semibold text-gray-300">JavaScript</span>
+                        <span class="text-lr font-medium text-gray-400">80%</span>
+                    </div>
+                    <div class="w-full bg-gray-700 rounded-full h-2">
+                        <div class="h-2 rounded-full pbar" style="width: 80%"></div>
+                    </div>
+                </div>
+                
+                <div class="skill">
+                    <div class="flex justify-between mb-1">
+                        <span class="text-base font-semibold text-gray-300">React JS</span>
+                        <span class="text-lr font-medium text-gray-400">50%</span>
+                    </div>
+                    <div class="w-full bg-gray-700 rounded-full h-2">
+                        <div class="h-2 rounded-full pbar" style="width: 50%"></div>
+                    </div>
+                </div>
+
+                <div class="skill">
+                    <div class="flex justify-between mb-1">
+                        <span class="text-base font-semibold text-gray-300">Tailwind CSS</span>
+                        <span class="text-lr font-medium text-gray-400">90%</span>
+                    </div>
+                    <div class="w-full bg-gray-700 rounded-full h-2">
+                        <div class="h-2 rounded-full pbar" style="width: 90%"></div>
+                    </div>
+                </div>
+
+                <div class="skill">
+                    <div class="flex justify-between mb-1">
+                        <span class="text-base font-semibold text-gray-300">SQL</span>
+                        <span class="text-lr font-medium text-gray-400">85%</span>
+                    </div>
+                    <div class="w-full bg-gray-700 rounded-full h-2">
+                        <div class="h-2 rounded-full pbar" style="width: 85%"></div>
+                    </div>
+                </div>
+
+                <div class="skill">
+                    <div class="flex justify-between mb-1">
+                        <span class="text-base font-semibold text-gray-300">MongoDB</span>
+                        <span class="text-lr font-medium text-gray-400">80%</span>
+                    </div>
+                    <div class="w-full bg-gray-700 rounded-full h-2">
+                        <div class="h-2 rounded-full pbar" style="width: 80%"></div>
+                    </div>
+                </div>
+
+                <div class="skill">
+                    <div class="flex justify-between mb-1">
+                        <span class="text-base font-semibold text-gray-300">Python</span>
+                        <span class="text-lr font-medium text-gray-400">60%</span>
+                    </div>
+                    <div class="w-full bg-gray-700 rounded-full h-2">
+                        <div class="h-2 rounded-full pbar" style="width: 60%"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="md:w-1/2 mt-8 md:mt-0 about">
+            <h3 class="text-3xl font-semibold mb-6 text-purple-300">About Me</h3>
+            <p class="text-gray-300 text-xl leading-relaxed">
+                As a passionate frontend web developer, I'm dedicated to creating engaging and user-friendly web experiences. 
+                My journey in web development has equipped me with a strong foundation in HTML, CSS, and JavaScript, 
+                and I'm constantly expanding my skills to stay at the forefront of modern web technologies.
+            </p>
+            <p class="text-gray-300 text-xl leading-relaxed mt-4">
+                I'm particularly enthusiastic about React JS and Tailwind CSS, which allow me to build dynamic and 
+                responsive interfaces efficiently. My experience with backend technologies like SQL and MongoDB 
+                gives me a well-rounded understanding of full-stack development.
+            </p>
+        </div>
+    </div>
+</div>
+<div class="container mx-auto px-12 py-12 projects" id="projects">
+    <h2 class="text-4xl font-bold mb-8 text-blue-400">Projects</h2>
+    <p class="text-gray-300 mb-6">Here are some of my recent projects:</p>
+    <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+        <div class="project-card animate-scroll h-64">
+            <img src="https://images.indianexpress.com/2024/03/YouTube-Pixabay-2.jpg" alt="YouTube Clone">
+            <div class="content">
+                <p>YouTube Clone: A replica of the YouTube interface with video playback functionality.</p>
+            </div>
+        </div>               
+        <div class="project-card animate-scroll h-64">
+            <img src="https://w3layouts.com/wp-content/uploads/2017/06/cool_weather_widget_Free27-06-2017_524662891.jpg" alt="Weather Website">
+            <div class="content">
+                <p>Website for live weather updates using real time data API.</p>
+            </div>
+        </div>               
+        <div class="project-card animate-scroll h-64">
+            <img src="https://images.unsplash.com/photo-1574375927938-d5a98e8ffe85?fm=jpg&w=3000&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8bmV0ZmxpeHxlbnwwfHwwfHx8MA%3D%3D" alt="Netflix Clone">
+            <div class="content">
+                <p>Netflix Clone</p>
+            </div>
+        </div>
+        <div class="project-card animate-scroll h-64">
+            <img src="https://i.ytimg.com/vi/HQCLzqhiT2w/hqdefault.jpg" alt="Calculator img">
+            <div class="content">
+                <p>Basic Calculator</p>
+            </div>
+        </div>             
+    </div>
+</div>
+<div id="contact" class="container mx-auto px-4 py-12">
+    <h2 class="text-4xl font-bold mb-5 text-blue-400">Contact Me</h2>
+    <p class="text-gray-300 mb-6">If you would like to get in touch, please fill out the form below:</p>
+    <form class="bg-gray-800 p-8 rounded-lg shadow-lg max-w-md mx-auto" action="https://formspree.io/f/xwkgznyn" method="post">
+        <div class="mb-6">
+            <label for="name" class="block text-gray-300 mb-2">Name</label>
+            <input type="text" id="name" name="name" class="w-full px-4 py-2 rounded bg-gray-700 text-white focus:outline-none focus:ring-2 focus:ring-blue-500 shadow-sm" required>
+        </div>
+        <div class="mb-6">
+            <label for="email" class="block text-gray-300 mb-2">Email</label>
+            <input type="email" id="email" name="email" class="w-full px-4 py-2 rounded bg-gray-700 text-white focus:outline-none focus:ring-2 focus:ring-blue-500 shadow-sm" required>
+        </div>
+        <div class="mb-6">
+            <label for="message" class="block text-gray-300 mb-2">Message</label>
+            <textarea id="message" name="message" rows="4" class="w-full px-4 py-2 rounded bg-gray-700 text-white focus:outline-none focus:ring-2 focus:ring-blue-500 shadow-sm" required></textarea>
+        </div>
+        <button type="submit" class="w-full px-4 py-2 rounded send">Submit</button>
+    </form>
+</div>
+<footer class="bg-gray-800 text-white py-4 mt-6 shadow-inner">
+    <div class="container mx-auto px-4 text-center">
+        <div class="mb-2">
+            <a href="#home" class="text-cyan-400 hover:text-cyan-600 transition duration-300">Home</a> |
+            <a href="#skills" class="text-cyan-400 hover:text-cyan-600 transition duration-300">Skills</a> |
+            <a href="#projects" class="text-cyan-400 hover:text-cyan-600 transition duration-300">Projects</a> |
+            <a href="#contact" class="text-cyan-400 hover:text-cyan-600 transition duration-300">Contact</a> |<br>
+            <a href="https://github.com/Monish1855"><ion-icon name="logo-github" class="text-2xl mr-3 ml-3 mt-2 cursor-pointer icons"></ion-icon></a>
+            <a href="https://www.linkedin.com/in/monish-m-307117331//"><ion-icon name="logo-linkedin" class="text-2xl mr-3 ml-3 mt-2 cursor-pointer icons"></ion-icon></a>
+            <a href="mailto:monishmurugesan185@gmail.com"><ion-icon name="mail-outline" class="text-2xl mr-3 ml-3 mt-2 cursor-pointer icons"></ion-icon></a>
+        </div>
+        <p class="text-gray-400">&copy; 2025 MONISH M. All rights reserved.</p>
+        <p class="text-gray-500 mt-1">Built with <span class="text-red-500">&hearts;</span> and Blackbox AI</p>
+    </div>
+</footer>
+<script src="script.js"></script>
+<script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+</body>
+</html>
